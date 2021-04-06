@@ -27,6 +27,13 @@ namespace Ekzamen_IS_19_02.Tests
             Assert.AreEqual(expectedTitle, d.tail);
             Assert.AreEqual(expectedHead, d.head);
             Assert.AreEqual(countExpected, d.dominos.Count);
+
+            Assert.AreEqual(d.dominos[0].PointOne, 1);
+            Assert.AreEqual(d.dominos[0].PointTwo, 1);
+
+            Assert.AreEqual(d.dominos[1].PointOne, 1);
+            Assert.AreEqual(d.dominos[1].PointTwo, 6);
+
         }
 
         [TestMethod()]
@@ -49,6 +56,19 @@ namespace Ekzamen_IS_19_02.Tests
             Assert.AreEqual(expectedTitle, d.tail);
             Assert.AreEqual(expectedHead, d.head);
             Assert.AreEqual(countExpected, d.dominos.Count);
+
+
+            Assert.AreEqual(d.dominos[0].PointOne, 5);
+            Assert.AreEqual(d.dominos[0].PointTwo, 4);
+
+            Assert.AreEqual(d.dominos[1].PointOne, 5);
+            Assert.AreEqual(d.dominos[1].PointTwo, 1);
+
+            Assert.AreEqual(d.dominos[2].PointOne, 1);
+            Assert.AreEqual(d.dominos[2].PointTwo, 1);
+
+            Assert.AreEqual(d.dominos[3].PointOne, 1);
+            Assert.AreEqual(d.dominos[3].PointTwo, 6);
         }
 
     }

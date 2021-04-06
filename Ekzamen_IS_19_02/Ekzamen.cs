@@ -101,9 +101,15 @@ namespace Ekzamen_IS_19_02
             }
         }
 
+        /// <summary>
+        /// проверяет возможность  хода костью
+        /// если ход возможен добавляет  кость в  список 
+        /// </summary>
+        /// <param name="bone"></param>
+        /// <returns></returns>
         public bool GoDomino(Domino_bone bone)
         {
-            throw new Exception();
+            throw new Exception("");
         }
     }
     
